@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebCoreMongo", "WebCoreMongo\WebCoreMongo.csproj", "{2974E253-DC4A-499E-864A-5EC10C558A5D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp", "WebApp\WebApp.csproj", "{BEEC767D-E12C-4C9C-B369-3C74282CCF7A}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{2D10D097-8614-4F44-B551-497773C46C59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2974E253-DC4A-499E-864A-5EC10C558A5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2974E253-DC4A-499E-864A-5EC10C558A5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2974E253-DC4A-499E-864A-5EC10C558A5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2974E253-DC4A-499E-864A-5EC10C558A5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEEC767D-E12C-4C9C-B369-3C74282CCF7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEEC767D-E12C-4C9C-B369-3C74282CCF7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEEC767D-E12C-4C9C-B369-3C74282CCF7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEEC767D-E12C-4C9C-B369-3C74282CCF7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D10D097-8614-4F44-B551-497773C46C59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D10D097-8614-4F44-B551-497773C46C59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D10D097-8614-4F44-B551-497773C46C59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D10D097-8614-4F44-B551-497773C46C59}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {094F0F4D-F272-4E7F-8DA5-56DC5B0EC0DC}
+	EndGlobalSection
+EndGlobal
